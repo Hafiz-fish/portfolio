@@ -1,0 +1,118 @@
+#app {
+  background-color: rgb(13, 13, 59);
+}
+
+.header {
+  padding: 2rem;
+
+  p {
+    color: rgb(86, 159, 255);
+    font-weight: 600;
+  }
+
+  h1 {
+    color: white;
+    margin-top: -20px;
+  }
+
+  hr {
+    height: 0.5px;
+    color: white;
+  }
+
+  .bio {
+    color: rgb(177, 177, 177);
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+.kotak-animasi {
+  height: 5px;
+  width: 100%;
+  border-radius: 5px;
+  animation: kotakWarna 8s infinite;
+  transition: ease-in-out;
+}
+@keyframes kotakWarna {
+  0% {
+    background-color: rgb(117, 42, 255);
+  }
+  20% {
+    background-color: rgb(41, 123, 201);
+  }
+  40% {
+    background-color: rgb(114, 9, 233);
+  }
+  60% {
+    background-color: rgb(41, 212, 235);
+  }
+  80% {
+    background-color: rgb(0, 117, 226);
+  }
+  100% {
+    background-color: rgb(101, 101, 255);
+  }
+}
+
+.about {
+  h1 {
+    color: rgb(72, 97, 179);
+    font-size: 22px;
+  }
+
+  .card {
+    background-color: rgb(45, 44, 92);
+
+    .card-body {
+      margin: 10px;
+
+      img {
+        border: 3px solid rgb(140, 139, 179);
+      }
+
+      p {
+        color: rgb(228, 228, 228);
+        font-weight: 400;
+        font-size: 16px;
+
+        span {
+          color: rgb(255, 244, 85);
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+.skills {
+  .card {
+    .card-header {
+      border-bottom: 1px solid rgb(87, 42, 252);
+      color: rgb(205, 209, 255);
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}
+
+// props
+.btn-biru {
+  background-color: rgb(57, 57, 252);
+  font-weight: 500;
+  color: rgb(219, 220, 255);
+
+  &:hover {
+    background-color: rgb(255, 244, 85);
+  }
+}
+
+.kotak-skill {
+  background-color: rgb(29, 29, 255);
+  padding: 5px 10px;
+  margin: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  border-radius: 8px;
+}
