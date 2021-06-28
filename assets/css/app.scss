@@ -6,13 +6,13 @@
   padding: 2rem;
 
   p {
-    color: rgb(86, 159, 255);
+    color: rgb(129, 183, 255);
     font-weight: 600;
   }
 
   h1 {
     color: white;
-    margin-top: -20px;
+    margin-top: -18px;
   }
 
   hr {
@@ -31,15 +31,15 @@
   height: 5px;
   width: 100%;
   border-radius: 5px;
-  animation: kotakWarna 8s infinite;
+  animation: kotakWarna 6s infinite;
   transition: ease-in-out;
 }
 @keyframes kotakWarna {
   0% {
-    background-color: rgb(117, 42, 255);
+    background-color: rgb(73, 143, 235);
   }
   20% {
-    background-color: rgb(41, 123, 201);
+    background-color: rgb(250, 203, 74);
   }
   40% {
     background-color: rgb(114, 9, 233);
@@ -51,13 +51,13 @@
     background-color: rgb(0, 117, 226);
   }
   100% {
-    background-color: rgb(101, 101, 255);
+    background-color: rgb(101, 168, 255);
   }
 }
 
 .about {
   h1 {
-    color: rgb(72, 97, 179);
+    color: rgb(120, 145, 226);
     font-size: 22px;
   }
 
@@ -72,7 +72,7 @@
       }
 
       p {
-        color: rgb(228, 228, 228);
+        color: rgb(207, 207, 207);
         font-weight: 400;
         font-size: 16px;
 
@@ -87,20 +87,44 @@
 
 .skills {
   .card {
-    .card-header {
-      border-bottom: 1px solid rgb(87, 42, 252);
-      color: rgb(205, 209, 255);
-      font-size: 14px;
-      font-weight: 500;
+    .card-body {
+      .icon-circle {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(153, 153, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        margin-top: -45px;
+        margin-left: -10px;
+        border-radius: 50%;
+      }
+
+      h1 {
+        color: rgb(228, 230, 255);
+        font-size: 20px;
+        margin-top: 5px;
+      }
+
+      .card-item {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        color: rgb(187, 187, 187);
+        margin-left: 20px;
+        margin-top: 5px;
+        font-size: 15px;
+      }
     }
   }
 }
 
 // props
 .btn-biru {
-  background-color: rgb(57, 57, 252);
+  background-color: rgb(99, 99, 255);
   font-weight: 500;
-  color: rgb(219, 220, 255);
+  color: rgb(247, 247, 247);
 
   &:hover {
     background-color: rgb(255, 244, 85);
@@ -115,4 +139,14 @@
   font-weight: 600;
   color: white;
   border-radius: 8px;
+}
+
+.green-circle {
+  width: 5px;
+  height: 5px;
+  background-color: rgb(0, 255, 213);
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  margin-top: 2px;
 }

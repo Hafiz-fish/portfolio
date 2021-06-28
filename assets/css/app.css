@@ -7,13 +7,13 @@
 }
 
 .header p {
-  color: #569fff;
+  color: #81b7ff;
   font-weight: 600;
 }
 
 .header h1 {
   color: white;
-  margin-top: -20px;
+  margin-top: -18px;
 }
 
 .header hr {
@@ -31,18 +31,18 @@
   height: 5px;
   width: 100%;
   border-radius: 5px;
-  -webkit-animation: kotakWarna 8s infinite;
-          animation: kotakWarna 8s infinite;
+  -webkit-animation: kotakWarna 6s infinite;
+          animation: kotakWarna 6s infinite;
   -webkit-transition: ease-in-out;
   transition: ease-in-out;
 }
 
 @-webkit-keyframes kotakWarna {
   0% {
-    background-color: #752aff;
+    background-color: #498feb;
   }
   20% {
-    background-color: #297bc9;
+    background-color: #facb4a;
   }
   40% {
     background-color: #7209e9;
@@ -54,16 +54,16 @@
     background-color: #0075e2;
   }
   100% {
-    background-color: #6565ff;
+    background-color: #65a8ff;
   }
 }
 
 @keyframes kotakWarna {
   0% {
-    background-color: #752aff;
+    background-color: #498feb;
   }
   20% {
-    background-color: #297bc9;
+    background-color: #facb4a;
   }
   40% {
     background-color: #7209e9;
@@ -75,12 +75,12 @@
     background-color: #0075e2;
   }
   100% {
-    background-color: #6565ff;
+    background-color: #65a8ff;
   }
 }
 
 .about h1 {
-  color: #4861b3;
+  color: #7891e2;
   font-size: 22px;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .about .card .card-body p {
-  color: #e4e4e4;
+  color: #cfcfcf;
   font-weight: 400;
   font-size: 16px;
 }
@@ -107,17 +107,51 @@
   font-weight: 600;
 }
 
-.skills .card .card-header {
-  border-bottom: 1px solid #572afc;
-  color: #cdd1ff;
-  font-size: 14px;
-  font-weight: 500;
+.skills .card .card-body .icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #9999ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: -10px;
+  border-radius: 50%;
+}
+
+.skills .card .card-body h1 {
+  color: #e4e6ff;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.skills .card .card-body .card-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #bbbbbb;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 15px;
 }
 
 .btn-biru {
-  background-color: #3939fc;
+  background-color: #6363ff;
   font-weight: 500;
-  color: #dbdcff;
+  color: #f7f7f7;
 }
 
 .btn-biru:hover {
@@ -132,5 +166,15 @@
   font-weight: 600;
   color: white;
   border-radius: 8px;
+}
+
+.green-circle {
+  width: 5px;
+  height: 5px;
+  background-color: #00ffd5;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  margin-top: 2px;
 }
 /*# sourceMappingURL=app.css.map */
