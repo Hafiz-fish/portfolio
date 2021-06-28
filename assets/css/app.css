@@ -107,7 +107,11 @@
   font-weight: 600;
 }
 
-.skills .card .card-body .icon-circle {
+.about .skills {
+  margin-bottom: 100px;
+}
+
+.about .skills .card .card-body .icon-circle {
   width: 40px;
   height: 40px;
   background-color: #9999ff;
@@ -126,13 +130,13 @@
   border-radius: 50%;
 }
 
-.skills .card .card-body h1 {
+.about .skills .card .card-body h1 {
   color: #e4e6ff;
   font-size: 20px;
   margin-top: 5px;
 }
 
-.skills .card .card-body .card-item {
+.about .skills .card .card-body .card-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,6 +150,33 @@
   margin-left: 20px;
   margin-top: 5px;
   font-size: 15px;
+}
+
+.about .experience .card {
+  max-width: 350px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about .experience .card .card-body {
+  margin: 0;
+}
+
+.about .experience .card .card-body .exp-detail h1 {
+  font-size: 18px;
+  margin-bottom: 2px;
+  color: #f1f1f1;
+}
+
+.about .experience .card .card-body .exp-detail .tempat {
+  font-weight: 600;
+  font-size: 15px;
+  color: #9dbfff;
+}
+
+.about .experience .card .card-body .exp-detail .waktu {
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .btn-biru {

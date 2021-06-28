@@ -83,38 +83,71 @@
       }
     }
   }
-}
 
-.skills {
-  .card {
-    .card-body {
-      .icon-circle {
-        width: 40px;
-        height: 40px;
-        background-color: rgb(153, 153, 255);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        margin-top: -45px;
-        margin-left: -10px;
-        border-radius: 50%;
+  .skills {
+    margin-bottom: 100px;
+
+    .card {
+      .card-body {
+        .icon-circle {
+          width: 40px;
+          height: 40px;
+          background-color: rgb(153, 153, 255);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          margin-top: -45px;
+          margin-left: -10px;
+          border-radius: 50%;
+        }
+
+        h1 {
+          color: rgb(228, 230, 255);
+          font-size: 20px;
+          margin-top: 5px;
+        }
+
+        .card-item {
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          color: rgb(187, 187, 187);
+          margin-left: 20px;
+          margin-top: 5px;
+          font-size: 15px;
+        }
       }
+    }
+  }
 
-      h1 {
-        color: rgb(228, 230, 255);
-        font-size: 20px;
-        margin-top: 5px;
-      }
+  .experience {
+    .card {
+      max-width: 350px;
+      margin-left: 20px;
+      margin-right: 20px;
 
-      .card-item {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        color: rgb(187, 187, 187);
-        margin-left: 20px;
-        margin-top: 5px;
-        font-size: 15px;
+      .card-body {
+        margin: 0;
+
+        .exp-detail {
+          h1 {
+            font-size: 18px;
+            margin-bottom: 2px;
+            color: rgb(241, 241, 241);
+          }
+
+          .tempat {
+            font-weight: 600;
+            font-size: 15px;
+            color: rgb(157, 191, 255);
+          }
+
+          .waktu {
+            font-weight: 300;
+            font-size: 14px;
+          }
+        }
       }
     }
   }
