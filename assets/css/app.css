@@ -2,29 +2,92 @@
   background-color: #0d0d3b;
 }
 
-.header {
+.pembuka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.pembuka .header {
   padding: 2rem;
 }
 
-.header p {
+.pembuka .header p {
   color: #81b7ff;
   font-weight: 600;
 }
 
-.header h1 {
+.pembuka .header h1 {
   color: white;
   margin-top: -18px;
 }
 
-.header hr {
+.pembuka .header hr {
   height: 0.5px;
   color: white;
 }
 
-.header .bio {
+.pembuka .header .bio {
   color: #b1b1b1;
   font-weight: 400;
   font-size: 16px;
+}
+
+.pembuka .swipe {
+  -webkit-animation: swipeFly 2s infinite;
+          animation: swipeFly 2s infinite;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+}
+
+.pembuka .swipe a {
+  text-decoration: none;
+  color: #95a1c9;
+  font-size: 14px;
+}
+
+.pembuka .swipe a p {
+  margin-top: 5px;
+}
+
+.pembuka .swipe a:hover {
+  color: yellow;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@-webkit-keyframes swipeFly {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes swipeFly {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .kotak-animasi {
@@ -200,18 +263,32 @@
 .about .edu .items-edu .waktu {
   margin-top: -12px;
   margin-bottom: 0px;
-  font-size: 14px;
+  font-size: 15px;
   color: #e6e6e6;
 }
 
 .btn-biru {
-  background-color: #6363ff;
+  background-color: #fff455;
   font-weight: 500;
-  color: #f7f7f7;
+  color: #2b2b2b;
 }
 
 .btn-biru:hover {
-  background-color: #fff455;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.btn-kuning {
+  background: none;
+  border: 1px solid #ffe600;
+  font-weight: 500;
+  color: #ffe600;
+}
+
+.btn-kuning:hover {
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  color: black;
 }
 
 .kotak-skill {
@@ -234,7 +311,7 @@
   margin-top: 2px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   .about .edu .circle-edu {
     background-color: #6b6bff;
     width: 50px;

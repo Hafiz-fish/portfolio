@@ -2,28 +2,66 @@
   background-color: rgb(13, 13, 59);
 }
 
-.header {
-  padding: 2rem;
+.pembuka {
+  display: flex;
+  align-items: center;
+  height: 100vh;
 
-  p {
-    color: rgb(129, 183, 255);
-    font-weight: 600;
+  .header {
+    padding: 2rem;
+
+    p {
+      color: rgb(129, 183, 255);
+      font-weight: 600;
+    }
+
+    h1 {
+      color: white;
+      margin-top: -18px;
+    }
+
+    hr {
+      height: 0.5px;
+      color: white;
+    }
+
+    .bio {
+      color: rgb(177, 177, 177);
+      font-weight: 400;
+      font-size: 16px;
+    }
   }
 
-  h1 {
-    color: white;
-    margin-top: -18px;
+  .swipe {
+    animation: swipeFly 2s infinite;
+    transition: ease-in-out;
+
+    a {
+      text-decoration: none;
+      color: rgb(149, 161, 201);
+      font-size: 14px;
+
+      p {
+        margin-top: 5px;
+      }
+
+      &:hover {
+        color: yellow;
+        transition: 0.3s;
+      }
+    }
   }
 
-  hr {
-    height: 0.5px;
-    color: white;
-  }
-
-  .bio {
-    color: rgb(177, 177, 177);
-    font-weight: 400;
-    font-size: 16px;
+  @keyframes swipeFly {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 }
 
@@ -175,7 +213,7 @@
       .waktu {
         margin-top: -12px;
         margin-bottom: 0px;
-        font-size: 14px;
+        font-size: 15px;
         color: rgb(230, 230, 230);
       }
     }
@@ -184,12 +222,26 @@
 
 // props
 .btn-biru {
-  background-color: rgb(99, 99, 255);
+  background-color: rgb(255, 244, 85);
   font-weight: 500;
-  color: rgb(247, 247, 247);
+  color: rgb(43, 43, 43);
 
   &:hover {
-    background-color: rgb(255, 244, 85);
+    background-color: rgb(245, 245, 245);
+    color: black;
+  }
+}
+
+.btn-kuning {
+  background: none;
+  border: 1px solid rgb(255, 230, 0);
+  font-weight: 500;
+  color: rgb(255, 230, 0);
+
+  &:hover {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(245, 245, 245);
+    color: black;
   }
 }
 
@@ -213,7 +265,7 @@
   margin-top: 2px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   .about {
     .edu {
       .circle-edu {
