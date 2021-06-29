@@ -179,6 +179,31 @@
   font-size: 14px;
 }
 
+.about .edu .circle-edu {
+  background-color: #6b6bff;
+  width: 50px;
+  height: 50px;
+}
+
+.about .edu .items-edu h1 {
+  font-size: 18px;
+  color: #e1e5ff;
+}
+
+.about .edu .items-edu .jurusan {
+  font-size: 16px;
+  margin-top: -5px;
+  font-weight: 500;
+  color: #a0a9d3;
+}
+
+.about .edu .items-edu .waktu {
+  margin-top: -12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #e6e6e6;
+}
+
 .btn-biru {
   background-color: #6363ff;
   font-weight: 500;
