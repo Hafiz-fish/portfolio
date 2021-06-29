@@ -192,7 +192,7 @@
 
   .edu {
     .circle-edu {
-      background-color: rgb(107, 107, 255);
+      background-color: rgb(153, 153, 255);
       width: 50px;
       height: 50px;
     }
@@ -218,8 +218,108 @@
       }
     }
   }
+
+  .competition {
+    .circle-competition {
+      background-color: rgb(153, 153, 255);
+      width: 50px;
+      height: 50px;
+    }
+
+    .items-competition {
+      h1 {
+        font-size: 18px;
+        color: rgb(225, 229, 255);
+      }
+
+      .tempat {
+        font-size: 16px;
+        margin-top: -5px;
+        font-weight: 500;
+        color: rgb(160, 169, 211);
+      }
+
+      .waktu {
+        margin-top: -12px;
+        margin-bottom: 0px;
+        font-size: 15px;
+        color: rgb(230, 230, 230);
+      }
+    }
+  }
 }
 
+.contact {
+  h1 {
+    color: rgb(240, 240, 240);
+  }
+
+  p {
+    color: rgb(175, 175, 175);
+    margin-top: 20px;
+  }
+
+  .social {
+    margin: 0;
+    padding: 0;
+  }
+
+  .social ul {
+    margin: 0;
+    padding: 5px;
+  }
+
+  .social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+  }
+
+  .social i {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #909aa0;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+  }
+
+  .social i:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+  }
+
+  .social .fa-facebook:hover {
+    background: #4060a5;
+  }
+
+  .social .fa-github:hover {
+    background: #343434;
+  }
+
+  .social .fa-linkedin:hover {
+    background: #0094bc;
+  }
+
+  .social .fa-instagram:hover {
+    background: #375989;
+  }
+}
 // props
 .btn-biru {
   background-color: rgb(255, 244, 85);
