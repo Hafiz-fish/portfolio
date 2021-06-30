@@ -301,65 +301,18 @@
   margin-top: 20px;
 }
 
-.contact .social {
-  margin: 0;
-  padding: 0;
+.contact .sosial .sosial-media a {
+  color: #909bbe;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-.contact .social ul {
-  margin: 0;
-  padding: 5px;
+.contact .sosial .sosial-media a:hover {
+  color: #7e38ff;
 }
 
-.contact .social ul li {
-  margin: 5px;
-  list-style: none outside none;
-  display: inline-block;
-}
-
-.contact .social i {
-  width: 40px;
-  height: 40px;
-  color: #fff;
-  background-color: #909aa0;
-  font-size: 22px;
-  text-align: center;
-  padding-top: 12px;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -o-border-radius: 50%;
-  transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  -ms-transition: all ease 0.3s;
-}
-
-.contact .social i:hover {
-  color: #fff;
-  text-decoration: none;
-  transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  -ms-transition: all ease 0.3s;
-}
-
-.contact .social .fa-facebook:hover {
-  background: #4060a5;
-}
-
-.contact .social .fa-github:hover {
-  background: #343434;
-}
-
-.contact .social .fa-linkedin:hover {
-  background: #0094bc;
-}
-
-.contact .social .fa-instagram:hover {
-  background: #375989;
+.footer i {
+  color: #cc2424;
 }
 
 .btn-biru {
@@ -404,29 +357,5 @@
   border: none;
   margin-right: 10px;
   margin-top: 2px;
-}
-
-@media only screen and (max-width: 600px) {
-  .about .edu .circle-edu {
-    background-color: #6b6bff;
-    width: 50px;
-    height: 50px;
-  }
-  .about .edu .items-edu h1 {
-    font-size: 15px;
-    color: #e1e5ff;
-  }
-  .about .edu .items-edu .jurusan {
-    font-size: 14px;
-    margin-top: -5px;
-    font-weight: 500;
-    color: #a0a9d3;
-  }
-  .about .edu .items-edu .waktu {
-    margin-top: -12px;
-    margin-bottom: 0px;
-    font-size: 13px;
-    color: #e6e6e6;
-  }
 }
 /*# sourceMappingURL=app.css.map */
