@@ -6,23 +6,281 @@
     <meta content="Ini adalah web portfolio iseng yang dibikin hanya beberapa jam saja dan mendadak" />
     <meta name="Author" content="Hafiz Muhammad Rifqi" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ada perbaikan dulu</title>
+    <title>Hafiz | Portfolio</title>
 
     <link rel="shortcut icon" type="image/jpg" href="./assets/img/favicon.ico" />
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/app.css" />
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   </head>
-  <body style="background-color: rgb(240, 240, 240)">
-    <div class="container mt-5">
-      <div class="row mt-5">
-        <div class="col-md-8 offset-md-2 text-center mt-5 content">
-          <img src="./assets/img/mail-face.png" alt="Mengsedih" style="width: 100px" />
-          <h1 class="mt-5">
-            Sorry :( <br />
-            this page doesnt ready
-          </h1>
-          <p class="mt-5">Developernya lagi ngaco, codenya lagi di beresin dulu yaa</p>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <!-- header -->
+            <div class="pembuka">
+              <div class="header-wrapper">
+                <div class="kotak-animasi mt-5"></div>
+                <div class="header mb-4 mt-3">
+                  <p>Hello, i am</p>
+                  <h1>Hafiz Muhammad Rifqi</h1>
+                  <hr />
+                  <p class="bio">
+                    I am a young man who is passionate and always learn something new. Lived in Depok, West Java. Experienced in IT, especially in <span>Web Programing</span> and <span>UI/UX Design</span>, i also master office application.
+                  </p>
+                  <a href="#about" class="btn btn-sm btn-biru">See more</a>
+                  <a href="#contact" class="btn btn-sm btn-kuning">Get in touch</a>
+                </div>
+                <div class="kotak-animasi"></div>
+                <div class="swipe text-center mt-5">
+                  <a href="#about">
+                    <i data-feather="arrow-up-circle"></i>
+                    <p>Scroll up</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="pt-3 mt-3 mb-5 about" id="about">
+              <h1>About Me</h1>
+              <div class="card m-3 mb-2">
+                <div class="card-body text-center">
+                  <img src="./assets/img/pp.jpg" alt="Profile Pict" width="100px" class="rounded-circle mb-3" />
+                  <p class="m-2">
+                    I am <span>Hafiz Muhammad Rifqi</span>. Born in Depok, 13 March 2003. I'm the Junior Frontend Developer and UI/UX Designer. I have study at Software Engineer Field in SMKS Citra Negara. I really like technology, because
+                    i have technology.
+                  </p>
+                </div>
+              </div>
+              <div class="mt-5 mb-5 skills">
+                <h1 class="mb-2">My Skill</h1>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card mt-4">
+                      <div class="card-body">
+                        <div class="icon-circle">
+                          <i data-feather="edit-3" style="width: 20px"></i>
+                        </div>
+                        <h1>Design</h1>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Adobe XD
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Figma
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Adobe Illustrator
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Invision App
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card mt-4">
+                      <div class="card-body">
+                        <div class="icon-circle">
+                          <i data-feather="code" style="width: 20px"></i>
+                        </div>
+                        <h1>Web Developing</h1>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          HTML 5
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          CSS / SCSS
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Javascript
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          PHP
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          SQL
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-6">
+                    <div class="card mt-4">
+                      <div class="card-body">
+                        <div class="icon-circle">
+                          <i data-feather="server" style="width: 20px"></i>
+                        </div>
+                        <h1>Frameworks</h1>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Vue JS
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Codeigniter 4
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Laravel 8
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Bootstrap
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card mt-4">
+                      <div class="card-body">
+                        <div class="icon-circle">
+                          <i data-feather="file-text" style="width: 20px"></i>
+                        </div>
+                        <h1>Office</h1>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Word / Document
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Powerpoint
+                        </div>
+                        <div class="card-item">
+                          <div class="green-circle"></div>
+                          Spreadsheet
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-5 mb-5 experience">
+                <h1 class="mb-2">Experience</h1>
+                <div class="card mb-2">
+                  <div class="card-body d-flex justify-content-start align-items-center">
+                    <div class="exp-detail">
+                      <h1>Frontend Web Developer</h1>
+                      <p class="tempat">GolRoblox Freelance Project</p>
+                      <p class="waktu" style="margin-top: -15px; margin-bottom: 0px">2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div class="card-body d-flex justify-content-start align-items-center">
+                    <div class="exp-detail">
+                      <h1>UI Designer</h1>
+                      <p class="tempat">GolRoblox Freelance Project</p>
+                      <p class="waktu" style="margin-top: -15px; margin-bottom: 0px">2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div class="card-body d-flex justify-content-start align-items-center">
+                    <div class="exp-detail">
+                      <h1>Graphic Designer</h1>
+                      <p class="tempat">Instagram Infographic Project</p>
+                      <p class="waktu" style="margin-top: -15px; margin-bottom: 0px">2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div class="card-body d-flex justify-content-start align-items-center">
+                    <div class="exp-detail">
+                      <h1>Internship</h1>
+                      <p class="tempat">KPP Pratama Depok Sawangan</p>
+                      <p class="waktu" style="margin-top: -15px; margin-bottom: 0px">2019</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-5 mb-5 edu">
+                <h1>Formal Education</h1>
+                <div class="container">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-4 d-flex justify-content-center align-items-center icon-section">
+                          <div class="circle-edu d-flex justify-content-center align-items-center rounded-circle">
+                            <i data-feather="book-open" style="width: 30px"></i>
+                          </div>
+                        </div>
+                        <div class="col-8 items-edu">
+                          <h1>SMKS Citra Negara</h1>
+                          <p class="jurusan">Software Engineer</p>
+                          <p class="waktu">2018 - 2021 <span> | </span> Avg. poin 85</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-4 mb-4 competition">
+                <h1>Competition</h1>
+                <div class="container">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-4 d-flex justify-content-center align-items-center icon-section">
+                          <div class="circle-competition d-flex justify-content-center align-items-center rounded-circle">
+                            <i data-feather="star" style="width: 30px"></i>
+                          </div>
+                        </div>
+                        <div class="col-8 items-competition">
+                          <h1>EMBEDDED SYSTEM COMPETITION</h1>
+                          <p class="tempat">Gunadarma University Depok</p>
+                          <p class="waktu">2019 <span> | as Participant </span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact mt-5" id="contact">
+              <div class="kotak-animasi mt-5 mb-5"></div>
+              <h1>Get In Touch</h1>
+              <div class="container mt-3">
+                <p>I am open to working full time, part time, or make the masterpiece with you. If you are interested in collaborating with me then you can contact me via email or the following social media.</p>
+                <div class="sosial d-flex justify-content-center align-items-center mt-3">
+                  <div class="sosial-media m-2">
+                    <a href="mailto: hafizrifqi1303@gmail.com">
+                      <i class="fas fa-envelope fa-lg"></i>
+                    </a>
+                  </div>
+                  <div class="sosial-media m-2">
+                    <a href="https://www.instagram.com/haf_fish">
+                      <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                  </div>
+                  <div class="sosial-media m-2">
+                    <a href="https://web.facebook.com/profile.php?id=100006601576696">
+                      <i class="fab fa-facebook fa-lg"></i>
+                    </a>
+                  </div>
+                  <div class="sosial-media m-2">
+                    <a href="https://www.linkedin.com/in/hafizmr">
+                      <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="kotak-animasi mt-5 mb-5"></div>
+            </div>
+            <div class="footer text-center" style="color: rgb(83, 172, 224)">
+              <p>Made with <i class="fas fa-heart"></i> by Hafiz-fish</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
