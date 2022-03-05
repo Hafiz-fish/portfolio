@@ -213,6 +213,7 @@
   margin-left: 20px;
   margin-top: 5px;
   font-size: 15px;
+  float: left;
 }
 
 .about .experience .card {
@@ -308,7 +309,7 @@
 }
 
 .contact .sosial .sosial-media a:hover {
-  color: #7e38ff;
+  color: #383bff;
 }
 
 .footer i {
