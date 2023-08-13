@@ -1,92 +1,57 @@
 #app {
-  background-color: #0d0d3b;
+  background-color: rgb(13, 13, 59);
 }
 
 .pembuka {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   height: 100vh;
 }
-
 .pembuka .header {
   padding: 2rem;
 }
-
 .pembuka .header p {
-  color: #81b7ff;
+  color: rgb(129, 183, 255);
   font-weight: 600;
 }
-
 .pembuka .header h1 {
   color: white;
   margin-top: -18px;
 }
-
 .pembuka .header hr {
   height: 0.5px;
   color: white;
 }
-
 .pembuka .header .bio {
-  color: #b1b1b1;
+  color: rgb(177, 177, 177);
   font-weight: 400;
   font-size: 16px;
 }
-
 .pembuka .swipe {
-  -webkit-animation: swipeFly 2s infinite;
-          animation: swipeFly 2s infinite;
-  -webkit-transition: ease-in-out;
+  animation: swipeFly 2s infinite;
   transition: ease-in-out;
 }
-
 .pembuka .swipe a {
   text-decoration: none;
-  color: #95a1c9;
+  color: rgb(149, 161, 201);
   font-size: 14px;
 }
-
 .pembuka .swipe a p {
   margin-top: 5px;
 }
-
 .pembuka .swipe a:hover {
   color: yellow;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
-@-webkit-keyframes swipeFly {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
 @keyframes swipeFly {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
+    transform: translateY(-10px);
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
@@ -94,254 +59,190 @@
   height: 5px;
   width: 100%;
   border-radius: 5px;
-  -webkit-animation: kotakWarna 6s infinite;
-          animation: kotakWarna 6s infinite;
-  -webkit-transition: ease-in-out;
+  animation: kotakWarna 6s infinite;
   transition: ease-in-out;
-}
-
-@-webkit-keyframes kotakWarna {
-  0% {
-    background-color: #498feb;
-  }
-  20% {
-    background-color: #facb4a;
-  }
-  40% {
-    background-color: #7209e9;
-  }
-  60% {
-    background-color: #29d4eb;
-  }
-  80% {
-    background-color: #0075e2;
-  }
-  100% {
-    background-color: #65a8ff;
-  }
 }
 
 @keyframes kotakWarna {
   0% {
-    background-color: #498feb;
+    background-color: rgb(73, 143, 235);
   }
   20% {
-    background-color: #facb4a;
+    background-color: rgb(250, 203, 74);
   }
   40% {
-    background-color: #7209e9;
+    background-color: rgb(114, 9, 233);
   }
   60% {
-    background-color: #29d4eb;
+    background-color: rgb(41, 212, 235);
   }
   80% {
-    background-color: #0075e2;
+    background-color: rgb(0, 117, 226);
   }
   100% {
-    background-color: #65a8ff;
+    background-color: rgb(101, 168, 255);
   }
 }
-
 .about h1 {
-  color: #7891e2;
+  color: rgb(120, 145, 226);
   font-size: 22px;
 }
-
 .about .card {
-  background-color: #2d2c5c;
+  background-color: rgb(45, 44, 92);
 }
-
 .about .card .card-body {
   margin: 10px;
 }
-
 .about .card .card-body img {
-  border: 3px solid #8c8bb3;
+  border: 3px solid rgb(140, 139, 179);
 }
-
 .about .card .card-body p {
-  color: #cfcfcf;
+  color: rgb(207, 207, 207);
   font-weight: 400;
   font-size: 16px;
 }
-
 .about .card .card-body p span {
-  color: #fff455;
+  color: rgb(255, 244, 85);
   font-weight: 600;
 }
-
 .about .skills {
   margin-bottom: 100px;
 }
-
 .about .skills .card .card-body .icon-circle {
   width: 40px;
   height: 40px;
-  background-color: #9999ff;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: rgb(153, 153, 255);
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   margin-top: -45px;
   margin-left: -10px;
   border-radius: 50%;
 }
-
 .about .skills .card .card-body h1 {
-  color: #e4e6ff;
+  color: rgb(228, 230, 255);
   font-size: 20px;
   margin-top: 5px;
 }
-
 .about .skills .card .card-body .card-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #bbbbbb;
+  justify-content: end;
+  align-items: center;
+  color: rgb(187, 187, 187);
   margin-left: 20px;
   margin-top: 5px;
   font-size: 15px;
   float: left;
 }
-
 .about .experience .card {
   max-width: 350px;
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .about .experience .card .card-body {
   margin: 0;
 }
-
 .about .experience .card .card-body .exp-detail h1 {
   font-size: 18px;
   margin-bottom: 2px;
-  color: #f1f1f1;
+  color: rgb(241, 241, 241);
 }
-
 .about .experience .card .card-body .exp-detail .tempat {
   font-weight: 600;
   font-size: 15px;
-  color: #9dbfff;
+  color: rgb(157, 191, 255);
 }
-
 .about .experience .card .card-body .exp-detail .waktu {
   font-weight: 300;
   font-size: 14px;
 }
-
 .about .edu .circle-edu {
-  background-color: #9999ff;
+  background-color: rgb(153, 153, 255);
   width: 50px;
   height: 50px;
 }
-
 .about .edu .items-edu h1 {
   font-size: 18px;
-  color: #e1e5ff;
+  color: rgb(225, 229, 255);
 }
-
 .about .edu .items-edu .jurusan {
   font-size: 16px;
   margin-top: -5px;
   font-weight: 500;
-  color: #a0a9d3;
+  color: rgb(160, 169, 211);
 }
-
 .about .edu .items-edu .waktu {
   margin-top: -12px;
   margin-bottom: 0px;
   font-size: 15px;
-  color: #e6e6e6;
+  color: rgb(230, 230, 230);
 }
-
 .about .competition .circle-competition {
-  background-color: #9999ff;
+  background-color: rgb(153, 153, 255);
   width: 50px;
   height: 50px;
 }
-
 .about .competition .items-competition h1 {
   font-size: 18px;
-  color: #e1e5ff;
+  color: rgb(225, 229, 255);
 }
-
 .about .competition .items-competition .tempat {
   font-size: 16px;
   margin-top: -5px;
   font-weight: 500;
-  color: #a0a9d3;
+  color: rgb(160, 169, 211);
 }
-
 .about .competition .items-competition .waktu {
   margin-top: -12px;
   margin-bottom: 0px;
   font-size: 15px;
-  color: #e6e6e6;
+  color: rgb(230, 230, 230);
 }
 
 .contact h1 {
-  color: #f0f0f0;
+  color: rgb(240, 240, 240);
 }
-
 .contact p {
-  color: #afafaf;
+  color: rgb(175, 175, 175);
   margin-top: 20px;
 }
-
 .contact .sosial .sosial-media a {
-  color: #909bbe;
-  -webkit-transition: 0.4s;
+  color: rgb(144, 155, 190);
   transition: 0.4s;
 }
-
 .contact .sosial .sosial-media a:hover {
-  color: #383bff;
+  color: rgb(56, 59, 255);
 }
 
 .footer i {
-  color: #cc2424;
+  color: rgb(204, 36, 36);
 }
 
 .btn-biru {
-  background-color: #fff455;
+  background-color: rgb(255, 244, 85);
   font-weight: 500;
-  color: #2b2b2b;
+  color: rgb(43, 43, 43);
 }
-
 .btn-biru:hover {
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
   color: black;
 }
 
 .btn-kuning {
   background: none;
-  border: 1px solid #ffe600;
+  border: 1px solid rgb(255, 230, 0);
   font-weight: 500;
-  color: #ffe600;
+  color: rgb(255, 230, 0);
 }
-
 .btn-kuning:hover {
-  background-color: whitesmoke;
-  border: 1px solid whitesmoke;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(245, 245, 245);
   color: black;
 }
 
 .kotak-skill {
-  background-color: #1d1dff;
+  background-color: rgb(29, 29, 255);
   padding: 5px 10px;
   margin: 3px;
   font-size: 13px;
@@ -353,10 +254,9 @@
 .green-circle {
   width: 5px;
   height: 5px;
-  background-color: #00ffd5;
+  background-color: rgb(0, 255, 213);
   border-radius: 50%;
   border: none;
   margin-right: 10px;
   margin-top: 2px;
-}
-/*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */
